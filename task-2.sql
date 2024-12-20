@@ -36,3 +36,6 @@ WHERE first_name = 'Alice' AND last_name = 'Cooper';
 -- Видалення клієнта
 DELETE FROM customer
 WHERE first_name = 'Alice' AND last_name = 'Cooper';
+
+-- This is a new SQL query
+SELECT * FROM employees WHERE salary > 5000;
